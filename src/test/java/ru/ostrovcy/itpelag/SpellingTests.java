@@ -20,7 +20,7 @@ public class SpellingTests extends TestBaseRemote {
   @Severity(SeverityLevel.TRIVIAL)
   @Tags({@Tag("spelling"), @Tag("positive")})
   public void spellingITTest () {
-    String it = "it";
+    String it = "IT";
 
     step("Открыть страницу \"Вакансии\"", () -> {
       mainPage.openVacanciesPage()
@@ -36,7 +36,7 @@ public class SpellingTests extends TestBaseRemote {
   @Tags({@Tag("spelling"), @Tag("positive")})
   public void spellingLogoTest() {
 
-    String company = "ITpeag";
+    String company = "ITpelag";
 
     step("Открыть страницу \"Вакансии\"", () -> {
       mainPage.openVacanciesPage()
