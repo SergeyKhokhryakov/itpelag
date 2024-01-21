@@ -153,7 +153,7 @@ gradle clean test
 #### Задача в Jira
 
 <p align="center">
-  <img src="media/screen/jira.PNG" alt="jira" width="800">
+  <img src="media/screen/jira.png" alt="jira" width="800">
 </p>
 
 ## Уведомления в Telegram с использованием бота
