@@ -87,7 +87,7 @@ gradle clean test
 #### Главная страница Jenkins
 
 <p align="center">
-  <img src="media/screen/jenkins_mainpage.PNG" alt="Jenkins" width="800">
+  <img src="media/screen/jenkins_mainpage.png" alt="Jenkins" width="800">
 </p>
 
 Для запуска сборки необходимо указать значения параметров и нажать кнопку <code><strong>*Собрать*</strong></code>.
@@ -111,19 +111,19 @@ gradle clean test
 #### Главная страница Allure Report
 
 <p align="center">
-  <img src="media/screen/allure_main.PNG" alt="allure_main" width="800">
+  <img src="media/screen/allure_main.png" alt="allure_main" width="800">
 </p>
 
 #### Тесты
 
 <p align="center">
-  <img src="media/screen/allure_tests.PNG" alt="allure_tests" width="800">
+  <img src="media/screen/allure_tests.png" alt="allure_tests" width="800">
 </p>
 
 #### Графики
 
 <p align="center">
-  <img src="media/screen/allure_graphs.PNG" alt="allure_graphs" width="800">
+  <img src="media/screen/allure_graphs.png" alt="allure_graphs" width="800">
 </p>
 
 ## Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/34674)
@@ -139,13 +139,13 @@ gradle clean test
 #### Тест-кейсы
 
 <p align="center">
-  <img src="media/screen/testops_tests.PNG" alt="testops_tests" width="800">
+  <img src="media/screen/testops_tests.png" alt="testops_tests" width="800">
 </p>
 
 #### Дашборды
 
 <p align="center">
-  <img src="media/screen/allure_dashboards.PNG" alt="dashboards" width="800">
+  <img src="media/screen/allure_dashboards.png" alt="dashboards" width="800">
 </p>
 
 ## Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-1070)
@@ -161,7 +161,7 @@ gradle clean test
 #### Оповещение о результатах сборки
 
 <p align="center">
-  <img src="media/screen/telegram.PNG" alt="telegram" width="800">
+  <img src="media/screen/telegram.png" alt="telegram" width="400">
 </p>
 
 ## Пример запуска теста в Selenoid
