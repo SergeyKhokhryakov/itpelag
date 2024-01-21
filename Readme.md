@@ -1,6 +1,8 @@
 # Проект по автоматизации тестирования сайта ITpelag
 <p align="center">
-  <img src="https://static.tildacdn.com/tild3830-3734-4133-a435-333832623535/logo.svg" alt="Jenkins" width="300">
+  <a href="https://itpelag.com/">
+  <img src="media/screen/logo.png" alt="ITpelag" width="200">
+  </a>
 </p>
 
 ##	Содержание
