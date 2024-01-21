@@ -82,7 +82,7 @@ gradle clean test
 
 <code>auth</code> – авторизация для удаленного запуска (_по умолчанию - <code>выполнена</code>_).
 
-## Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/bookcity_final/)
+## Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/021-SergeyAQA-ITpelag/)
 
 #### Главная страница Jenkins
 
