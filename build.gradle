@@ -77,4 +77,10 @@ task positive_tests(type: Test) {
     }
 }
 
+task spelling_tests(type: Test) {
+    useJUnitPlatform {
+        includeTags("spelling")
+    }
+}
+
 

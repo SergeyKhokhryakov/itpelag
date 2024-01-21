@@ -9,15 +9,16 @@ import static io.qameta.allure.Allure.step;
 public class ManualTest {
   @Test
   @Manual
-  @DisplayName("Проверка авторизации в фиче \"Book Store Application\"")
+  @DisplayName("Проверка формы \"Обсудить проект\"")
   public void testAuth(){
-    step("Открываем рубрику Book Store Application");
-    step("Авторизуемся как пользователь Paul Drobenok", () -> {
-      step("Вводим логин pdrobenok");
-      step("Вводим пароль 123121312");
-      step("Нажимаем кнопку Войти");
+    step("Открыть форму \"Обсудить проект\"");
+    step("Заполнить поля формы", () -> {
+      step("Ввести данные пользователя");
+      step("Ввести способы связи");
+      step("Ввести описание задачи");
+      step("Ввести приблизительный бюджет");
+      step("Нажать кнопку Отправить");
     });
-    step("И тут продолжение....");
-
+    step("Проверить результат регистрации запроса");
   }
 }

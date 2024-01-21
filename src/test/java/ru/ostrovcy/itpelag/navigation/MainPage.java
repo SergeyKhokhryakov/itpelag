@@ -1,11 +1,13 @@
 package ru.ostrovcy.itpelag.navigation;
 
+
 import io.qameta.allure.Step;
 import lombok.Getter;
 import ru.ostrovcy.itpelag.pages.*;
 
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
+import static io.qameta.allure.Allure.step;
 
 /**
  * Главная страница приложения имеет
@@ -13,21 +15,19 @@ import static com.codeborne.selenide.Selenide.*;
  * Каждая категория - самостоятельная страница со скроллингом
  * <p>
  * Методы:
- * - openElementsCategory()
- * - openAlertsFrameWindowsCategory()
- * - openTextBoxPage()
- * - openButtonsPage()
- * - openBrowserWindowsPage()
- * - openAlertPage()
- * - onTextBoxPage()
- * - onButtonsPage()
- * - onBrowserWindowsPage()
- * - onAlertPage()
+ * - openMainPage()
+ * - openVacanciesPage()
+ * - openLandingPage()
+ * - openBlogPage()
+ * - openKvartirnikPage()
+ * - openContactsPage()
+ * - openProjectPage()
  */
 
 
 public final class MainPage {
   private static volatile MainPage instance;
+  //locators
   private String locatorMain = "a[href=\"/\"]";
   private String locatorVacancies = "a[href=\"/vacancies\"]";
   private String locatorLanding = "a[href=\"/landing\"]";
@@ -74,9 +74,10 @@ public final class MainPage {
     return getInstance();
   }
 
-  @Step("Вернуться домой")
   public MainPage goHome(){
-    open(locatorMain);
+    step("Вернуться домой", () -> {
+      open(locatorMain);
+    });
     return instance;
   }
 

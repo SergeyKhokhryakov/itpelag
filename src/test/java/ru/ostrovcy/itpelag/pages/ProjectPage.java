@@ -5,6 +5,7 @@ import lombok.Getter;
 import ru.ostrovcy.itpelag.navigation.MainPage;
 
 import static com.codeborne.selenide.Selenide.$;
+import static io.qameta.allure.Allure.step;
 
 public class ProjectPage {
   @Getter
@@ -17,9 +18,10 @@ public class ProjectPage {
     return this;
   }
 
-  @Step("Закрыть форму")
   public void closePage(){
-    $(locatorClose).pressEnter();
+    step("Закрыть форму", () -> {
+      $(locatorClose).pressEnter();
+    });
   }
 
 }
